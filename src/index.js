@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000 || process.env.PORT;
+const port=process.env.PORT || 8000
 
 // Define a route that redirects to another link
 app.get('/', (req, res) => {
